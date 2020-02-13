@@ -1,12 +1,17 @@
 .Controls {
   text-align: center;
+  margin-top: 1rem;
+
   button {
     padding: 0.4rem;
     margin: 0 0.4rem;
-
     border:none;
-
+    border-radius: 5px;
     background-color: #0198E1;
     color: #FFFFFF;
+  }
+
+  button:hover {
+    background: #016799;
   }
 }
