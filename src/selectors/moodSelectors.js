@@ -13,3 +13,25 @@ export const getFace = state => {
 
   return '😀';
 };
+
+export const getState = state => state;
+
+export const getCoffees = () => {
+  const state = getState();
+  return state.coffees;
+};
+
+export const getSnacks = () => {
+  const state = getState();
+  return state.snacks;
+};
+
+export const getNaps = () => {
+  const state = getState();
+  return state.naps;
+};
+
+export const getStudies = () => {
+  const state = getState();
+  return state.studies;
+};
