@@ -36,10 +36,19 @@
     border-radius: 5px;
     font-size: 16px;
     background: yellowgreen;
+    margin-top: 30px;
   }
 
   button:hover {
     background: #57741b;
     color: white;
+  }
+
+  p {
+    font-size: 40vh;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 }

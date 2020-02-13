@@ -38,6 +38,9 @@ const MoodsFn = () => {
       {time <= 0 && 
       <main className={styles.Gameover}>
         <h1>Time's up!</h1>
+        <h2>Your face:</h2>
+        <Face />
+        <h2>Nice job! That face is super facey!</h2>
         <Link to='/'>
           <button>Facey face again?</button>
         </Link>

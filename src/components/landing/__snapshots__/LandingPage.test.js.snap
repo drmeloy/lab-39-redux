@@ -1,21 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`LandingPage component matches snapshot 1`] = `
-<section
-  className="Landing"
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
 >
-  <h1>
-    Welcome to Facey Face!
-  </h1>
-  <p>
-    You'll have 5 seconds to make your face the faciest face ever. Prepare yourself. Deep breath. When you're ready, click below to start!
-  </p>
-  <Link
-    to="/faceyface"
-  >
-    <button>
-      Click to begin!
-    </button>
-  </Link>
-</section>
+  <LandingPage />
+</ContextProvider>
 `;
