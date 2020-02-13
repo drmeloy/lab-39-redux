@@ -14,24 +14,18 @@ export const getFace = state => {
   return '😀';
 };
 
-export const getState = state => state;
-
-export const getCoffees = () => {
-  const state = getState();
+export const getCoffees = state => {
   return state.coffees;
 };
 
-export const getSnacks = () => {
-  const state = getState();
+export const getSnacks = state => {
   return state.snacks;
 };
 
-export const getNaps = () => {
-  const state = getState();
+export const getNaps = state => {
   return state.naps;
 };
 
-export const getStudies = () => {
-  const state = getState();
+export const getStudies = state => {
   return state.studies;
 };
