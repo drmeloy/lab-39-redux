@@ -4,7 +4,7 @@ import Face from '../components/face/Face';
 import { useDispatch, useSelector } from 'react-redux';
 import { drinkCoffee, eatSnack, takeNap, study } from '../actions/moodActions';
 import { getSnacks, getNaps, getCoffees, getStudies } from '../selectors/moodSelectors';
-import styles from './Controls.css';
+import styles from './MoodsFn.css';
 
 const MoodsFn = () => {
   const [time, setTime] = useState(5);
