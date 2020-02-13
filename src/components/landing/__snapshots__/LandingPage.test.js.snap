@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPage component matches snapshot 1`] = `
+<section
+  className="Landing"
+>
+  <h1>
+    Welcome to Facey Face!
+  </h1>
+  <p>
+    You'll have 5 seconds to make your face the faciest face ever. Prepare yourself. Deep breath. When you're ready, click below to start!
+  </p>
+  <Link
+    to="/faceyface"
+  >
+    <button>
+      Click to begin!
+    </button>
+  </Link>
+</section>
+`;
