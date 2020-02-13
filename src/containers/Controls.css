@@ -15,3 +15,31 @@
     background: #016799;
   }
 }
+
+.Timer {
+  color: orangered;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.Gameover {
+  text-align: center;
+
+  h1 {
+    margin: 30px;
+    font-size: 4rem;
+  }
+
+  button {
+    height: 55px;
+    width: 165px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: yellowgreen;
+  }
+
+  button:hover {
+    background: #57741b;
+    color: white;
+  }
+}
