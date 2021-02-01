@@ -1,0 +1,54 @@
+.Controls {
+  text-align: center;
+  margin-top: 1rem;
+
+  button {
+    padding: 0.4rem;
+    margin: 0 0.4rem;
+    border:none;
+    border-radius: 5px;
+    background-color: #0198E1;
+    color: #FFFFFF;
+  }
+
+  button:hover {
+    background: #016799;
+  }
+}
+
+.Timer {
+  color: orangered;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.Gameover {
+  text-align: center;
+
+  h1 {
+    margin: 30px;
+    font-size: 4rem;
+  }
+
+  button {
+    height: 55px;
+    width: 165px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: yellowgreen;
+    margin-top: 30px;
+  }
+
+  button:hover {
+    background: #57741b;
+    color: white;
+  }
+
+  p {
+    font-size: 40vh;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
